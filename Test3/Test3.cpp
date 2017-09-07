@@ -2,10 +2,25 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    return 0;
+	int integerArray[5] = { 1, 2, 3, 4, 2 };
+	int i;
+	for (i = 0; i < 5; i++)
+	{
+		cout << "value at position " << i << " :  " << integerArray[i] << endl;
+		integerArray[i]++;
+	}
+	for (i = 0; i < 5; i++)
+	{
+		cout << "value at position " << i << " :  " << integerArray[i] << endl;
+	}
+	cout << "hello world";
+
+	return 0;
 }
+
 
